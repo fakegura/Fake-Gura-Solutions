@@ -17,6 +17,7 @@ export PATH="/home/azureuser/anaconda3/bin:$PATH"
 cd /home/azureuser/
 
 conda init
+source ~/.bashrc
 yes | conda create -n vcclient-dev python=3.10
 conda activate vcclient-dev
 

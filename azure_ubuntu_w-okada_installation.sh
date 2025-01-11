@@ -3,6 +3,9 @@
 source ~/.bashrc
 
 sudo apt-get update
+
+exit
+
 yes | sudo apt-get install curl
 yes | sudo apt-get install -y libportaudio2
 yes | sudo apt install build-essential

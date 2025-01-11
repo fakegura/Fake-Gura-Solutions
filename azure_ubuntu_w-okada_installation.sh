@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source ~/.bashrc
+
 sudo apt-get update
 yes | sudo apt-get install curl
 yes | sudo apt-get install -y libportaudio2
@@ -13,8 +15,6 @@ bash Anaconda3-2024.10-1-Linux-x86_64.sh -b
 
 export PATH="/home/azureuser/anaconda3/bin:$PATH"
 cd /home/azureuser/
-source ~/.bashrc
-anaconda3/bin/conda init
 
 yes | conda create -n vcclient-dev python=3.10
 conda activate vcclient-dev

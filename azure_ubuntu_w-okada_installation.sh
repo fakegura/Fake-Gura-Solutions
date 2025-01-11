@@ -3,9 +3,6 @@
 source ~/.bashrc
 
 sudo apt-get update
-
-exit
-
 yes | sudo apt-get install curl
 yes | sudo apt-get install -y libportaudio2
 yes | sudo apt install build-essential
@@ -30,6 +27,9 @@ pip install pyworld
 
 git clone https://github.com/w-okada/voice-changer.git
 cd /home/azureuser/voice-changer/server
+
+exit
+
 pip install -r requirements.txt
 
 server_ip=$(curl -s http://ifconfig.me)

@@ -1,7 +1,5 @@
 #!/bin/bash
 
-source ~/.bashrc
-
 sudo apt-get update
 yes | sudo apt-get install curl
 yes | sudo apt-get install -y libportaudio2

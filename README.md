@@ -38,3 +38,9 @@ python3 MMVCServerSIO.py -p 18888 --https true \
     --host 0.0.0.0 \
     --allowed-origins https://$server_ip:18888 
 ```
+
+Trying to make it work in Azure CLI on Azure Portal
+```
+sudo apt-get update
+yes | sudo apt-get install curl
+```

@@ -12,8 +12,8 @@ curl -O https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh
 bash Anaconda3-2024.10-1-Linux-x86_64.sh -b
 
 cd /home/azureuser/
-anaconda3/bin/conda init
 source ~/.bashrc
+anaconda3/bin/conda init
 
 yes | conda create -n vcclient-dev python=3.10
 conda activate vcclient-dev

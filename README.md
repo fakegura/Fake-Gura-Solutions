@@ -39,8 +39,19 @@ python3 MMVCServerSIO.py -p 18888 --https true \
     --allowed-origins https://$server_ip:18888 
 ```
 
-Trying to make it work in Azure CLI on Azure Portal
+NVIDIA drivers installation according to Azure manual.
+Drivers:
 ```
-sudo apt-get update
-yes | sudo apt-get install curl
+sudo apt install -y ubuntu-drivers-common
+sudo ubuntu-drivers install
+sudo reboot
+```
+
+and CUDA:
+```
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/cuda-keyring_1.1-1_all.deb
+sudo apt install -y ./cuda-keyring_1.1-1_all.deb
+sudo apt update
+sudo apt -y install cuda-toolkit-12-5
+sudo reboot
 ```

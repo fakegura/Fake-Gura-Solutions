@@ -119,3 +119,11 @@ To use RDP, set a password:
 ```
 sudo passwd azureuser
 ```
+
+Download Gura:
+```
+cd /home/azureuser/
+mkdir rvc-models
+cd rvc-models
+wget -P https://huggingface.co/Gigrig/GigrigRVC/resolve/main/GawrGura_RVC_v2_Itaila_e200_s92600.zip
+```

@@ -127,3 +127,4 @@ mkdir rvc-models
 cd rvc-models
 wget https://huggingface.co/Gigrig/GigrigRVC/resolve/main/GawrGura_RVC_v2_Itaila_e200_s92600.zip
 ```
+In Network Security you have to open 3389 port for anything inbound for RDP.

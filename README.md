@@ -129,6 +129,7 @@ wget https://huggingface.co/Gigrig/GigrigRVC/resolve/main/GawrGura_RVC_v2_Itaila
 sudo apt install unzip
 unzip GawrGura_RVC_v2_Itaila_e200_s92600.zip
 ```
+Upload thumbnail with pscp.
 
 In Network Security you have to open 3389 port for anything inbound for RDP. On a remote desktop open a terminal Ctrl+Alt+T and install+run Chromium:
 ```

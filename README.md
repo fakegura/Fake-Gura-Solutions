@@ -126,5 +126,12 @@ cd /home/azureuser/
 mkdir rvc-models
 cd rvc-models
 wget https://huggingface.co/Gigrig/GigrigRVC/resolve/main/GawrGura_RVC_v2_Itaila_e200_s92600.zip
+sudo apt install unzip
+unzip GawrGura_RVC_v2_Itaila_e200_s92600.zip
 ```
-In Network Security you have to open 3389 port for anything inbound for RDP.
+
+In Network Security you have to open 3389 port for anything inbound for RDP. On a remote desktop open a terminal Ctrl+Alt+T and install+run Chromium:
+```
+sudo apt install chromium-browser
+chromium-browser
+```
